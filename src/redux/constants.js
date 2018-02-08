@@ -1,0 +1,16 @@
+/* API CONSTANTS */
+export const apiConstant = {
+    PLANETS_API : 'https://swapi.co/api/planets/'
+}
+
+/* ACTION CONSTANTS */
+
+export const actionConstant = {
+
+    GET_API_LOADING : 'GET_API_LOADING',
+    GET_API_ERROR : 'GET_API_ERROR',
+    GET_API_PLANET_LIST_SUCCESS : 'GET_API_PLANET_LIST_SUCCESS',
+    GET_API_PLANET_DATA_SUCCESS : 'GET_API_PLANET_DATA_SUCCESS',
+    CLEAR_PLANET_DATA : 'CLEAR_PLANET_DATA'
+
+}
